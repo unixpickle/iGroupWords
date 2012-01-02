@@ -14,3 +14,6 @@ Example
 =======
 
 Entering the phrase "do you have gum" will result in the output of two groups, one "do have," and the other "you gum." This is an obvious example, because these two strings are the same amount of characters. Although this example is quite trivial to do in one's head, more complicated cases that make heavy use of text metrics can also be solved by iGroupWords.
+
+![Example iGroupWords Screenshot](https://github.com/unixpickle/iGroupWords/raw/master/Example.png)
+
