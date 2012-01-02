@@ -13,6 +13,8 @@
 		FAA065F914B12998003C3B52 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAA065F714B12998003C3B52 /* InfoPlist.strings */; };
 		FAA065FB14B12999003C3B52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA065FA14B12998003C3B52 /* main.m */; };
 		FAA065FF14B12999003C3B52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA065FE14B12999003C3B52 /* AppDelegate.m */; };
+		FAA0660714B129BA003C3B52 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA0660614B129BA003C3B52 /* MainViewController.m */; };
+		FAA0660A14B12AF4003C3B52 /* SplitPhrase.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA0660914B12AF4003C3B52 /* SplitPhrase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +22,16 @@
 		FAA065EE14B12998003C3B52 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FAA065F014B12998003C3B52 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FAA065F214B12998003C3B52 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		FAA065F614B12998003C3B52 /* iGroupWords-Info.plist */ = {isa = PBXFileReference; path = "iGroupWords-Info.plist"; sourceTree = "<group>"; };
+		FAA065F614B12998003C3B52 /* iGroupWords-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iGroupWords-Info.plist"; sourceTree = "<group>"; };
 		FAA065F814B12998003C3B52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FAA065FA14B12998003C3B52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FAA065FC14B12999003C3B52 /* iGroupWords-Prefix.pch */ = {isa = PBXFileReference; path = "iGroupWords-Prefix.pch"; sourceTree = "<group>"; };
-		FAA065FD14B12999003C3B52 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAA065FC14B12999003C3B52 /* iGroupWords-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iGroupWords-Prefix.pch"; sourceTree = "<group>"; };
+		FAA065FD14B12999003C3B52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FAA065FE14B12999003C3B52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAA0660514B129BA003C3B52 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		FAA0660614B129BA003C3B52 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		FAA0660814B12AF4003C3B52 /* SplitPhrase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitPhrase.h; sourceTree = "<group>"; };
+		FAA0660914B12AF4003C3B52 /* SplitPhrase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplitPhrase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,10 @@
 			children = (
 				FAA065FD14B12999003C3B52 /* AppDelegate.h */,
 				FAA065FE14B12999003C3B52 /* AppDelegate.m */,
+				FAA0660514B129BA003C3B52 /* MainViewController.h */,
+				FAA0660614B129BA003C3B52 /* MainViewController.m */,
+				FAA0660814B12AF4003C3B52 /* SplitPhrase.h */,
+				FAA0660914B12AF4003C3B52 /* SplitPhrase.m */,
 				FAA065F514B12998003C3B52 /* Supporting Files */,
 			);
 			path = iGroupWords;
@@ -153,6 +163,8 @@
 			files = (
 				FAA065FB14B12999003C3B52 /* main.m in Sources */,
 				FAA065FF14B12999003C3B52 /* AppDelegate.m in Sources */,
+				FAA0660714B129BA003C3B52 /* MainViewController.m in Sources */,
+				FAA0660A14B12AF4003C3B52 /* SplitPhrase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
